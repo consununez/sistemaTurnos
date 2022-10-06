@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Sistema</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <script type="text/javascript" src="/js/data.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1 style="padding:1em"><i class="fa-solid fa-infinity"></i> Sistema </h1>
+    <hr>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="/prestador-lista.html"><i class="fa-solid fa-list"></i> Listado de Prestadores</a>
+            <a class="nav-link" href="/prestador-alta.html"><i class="fa-solid fa-user-plus"></i> Alta de Prestador</a>
+            <hr>
+            <a class="nav-link" href="/usuario-lista.html"><i class="fa-solid fa-list"></i> Listado de Usuarios</a>
+            <a class="nav-link" href="/usuario-alta.html"><i class="fa-solid fa-user-plus"></i> Alta de Usuario</a>
+            <hr>
+            <a class="nav-link" href="/turno-lista.html"><i class="fa-solid fa-list"></i> Listado de Turnos</a>
+            <a class="nav-link" href="/turno-alta.html"><i class="fa-solid fa-calendar-plus"></i> Alta de Turno</a>
+        </li>
+    </ul>
+
+    <hr>
+</div>
+
+    <div style = "position: fixed;bottom:1em;left:0">
+        <a href="" id="swagger">
+            <img src="/img/swagger-logo-horizontal.jpeg" alt="" style="max-width: 10em">
+        </a>
+        <a href="https://github.com/consununez/sistema">
+            <img src="/img/github.webp" alt="" style="max-width: 10em">
+        </a>
+    </div>
+
+</body>
+<script type="text/javascript">
+    document.getElementById("swagger").setAttribute("href", URL_BASE + "/swagger-ui/index.html");
+</script>
+</html>

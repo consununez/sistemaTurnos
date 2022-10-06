@@ -1,0 +1,122 @@
+[2022-07-26 14:33:58] [INFO] [TurnoService:121] Se listaron todos los turnos.
+[2022-07-26 14:34:09] [INFO] [UsuarioService:98] Se listaron todos los usuarios.
+[2022-07-26 14:34:26] [INFO] [PrestadorService:93] Se listaron todos los prestadors.
+[2022-07-27 10:58:11] [ERROR] [DataLoader:74] could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_MA71X4N4TYDIBSD9QT0M71LE7_INDEX_2 ON PUBLIC.USUARIO(DNI NULLS FIRST) VALUES ( /* 1 */ `20555444` )"; SQL statement:
+insert into usuario (apellido, dni, domicilio_id, fecha_ingreso, nombre, id) values (?, ?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-07-27 10:58:11] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=4, nombre=Prestador, apellido=de Prueba, matricula=9189)
+[2022-07-27 10:58:11] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=4, nombre=Prestador, apellido=de Prueba, matricula=9189)
+[2022-07-27 10:58:11] [INFO] [PrestadorService:111] Se eliminó el prestador: PrestadorDTO(id=4, nombre=Prestador, apellido=de Prueba, matricula=9189)
+[2022-07-27 10:58:11] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=5, nombre=Prestador, apellido=de Prueba, matricula=6648)
+[2022-07-27 10:58:11] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=5, nombre=Prestador, apellido=de Prueba, matricula=6648)
+[2022-07-27 10:58:11] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=6, nombre=Prestador, apellido=de Prueba, matricula=4569)
+[2022-07-27 10:58:11] [INFO] [PrestadorService:135] Se actualizará un prestador. Datos originales: PrestadorDTO(id=6, nombre=Prestador, apellido=de Prueba, matricula=4569)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:143] Datos actuales: PrestadorDTO(id=6, nombre=Doc. Emmet, apellido=Brown, matricula=8270)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=6, nombre=Doc. Emmet, apellido=Brown, matricula=8270)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=7, nombre=Prestador, apellido=de Prueba, matricula=5172)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=7, nombre=Prestador, apellido=de Prueba, matricula=5172)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=8, nombre=Prestador, apellido=de Prueba, matricula=6883)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=9, nombre=Prestador, apellido=de Prueba, matricula=2217)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=10, nombre=Prestador, apellido=de Prueba, matricula=1509)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:93] Se listaron todos los prestadors.
+[2022-07-27 10:58:12] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=5, apellido=de Prueba, nombre=Usuario, dni=25559516, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@22bbbe6)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=11, nombre=Prestador, apellido=de Prueba, matricula=2589)
+[2022-07-27 10:58:12] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=5, apellido=de Prueba, nombre=Usuario, dni=25559516, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@546ca9da)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=11, nombre=Prestador, apellido=de Prueba, matricula=2589)
+[2022-07-27 10:58:12] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@12115c28
+[2022-07-27 10:58:12] [INFO] [TurnoService:90] Se registró el siguiente turno: ar.com.sistema.dto.TurnoDTO@12115c28
+[2022-07-27 10:58:12] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@73b71935
+[2022-07-27 10:58:12] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=6, apellido=de Prueba, nombre=Usuario, dni=10526387, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@16448827)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=12, nombre=Prestador, apellido=de Prueba, matricula=7748)
+[2022-07-27 10:58:12] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=6, apellido=de Prueba, nombre=Usuario, dni=10526387, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@2cd6fae8)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=12, nombre=Prestador, apellido=de Prueba, matricula=7748)
+[2022-07-27 10:58:12] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@1c4a8c93
+[2022-07-27 10:58:12] [INFO] [TurnoService:90] Se registró el siguiente turno: ar.com.sistema.dto.TurnoDTO@1c4a8c93
+[2022-07-27 10:58:12] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=13, nombre=Prestador, apellido=de Prueba, matricula=7215)
+[2022-07-27 10:58:12] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=6, apellido=de Prueba, nombre=Usuario, dni=10526387, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@6527f68a)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=13, nombre=Prestador, apellido=de Prueba, matricula=7215)
+[2022-07-27 10:58:12] [INFO] [TurnoService:192] Se actualizará un turno. Datos originales: ar.com.sistema.dto.TurnoDTO@34e1c23d
+[2022-07-27 10:58:12] [INFO] [TurnoService:200] Datos actuales: ar.com.sistema.dto.TurnoDTO@492e9e87
+[2022-07-27 10:58:12] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@2e10f765
+[2022-07-27 10:58:12] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=7, apellido=de Prueba, nombre=Usuario, dni=31456786, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@752573df)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=14, nombre=Prestador, apellido=de Prueba, matricula=4467)
+[2022-07-27 10:58:12] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=7, apellido=de Prueba, nombre=Usuario, dni=31456786, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@2d541e01)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=14, nombre=Prestador, apellido=de Prueba, matricula=4467)
+[2022-07-27 10:58:12] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@3be60847
+[2022-07-27 10:58:12] [INFO] [TurnoService:90] Se registró el siguiente turno: ar.com.sistema.dto.TurnoDTO@3be60847
+[2022-07-27 10:58:12] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=8, apellido=de Prueba, nombre=Usuario, dni=22950408, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@5b2c9a69)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=15, nombre=Prestador, apellido=de Prueba, matricula=1738)
+[2022-07-27 10:58:12] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=8, apellido=de Prueba, nombre=Usuario, dni=22950408, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@44f5259a)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=15, nombre=Prestador, apellido=de Prueba, matricula=1738)
+[2022-07-27 10:58:12] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@1001b435
+[2022-07-27 10:58:12] [INFO] [TurnoService:90] Se registró el siguiente turno: ar.com.sistema.dto.TurnoDTO@1001b435
+[2022-07-27 10:58:12] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=9, apellido=de Prueba, nombre=Usuario, dni=12595356, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@17adbecf)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=16, nombre=Prestador, apellido=de Prueba, matricula=7682)
+[2022-07-27 10:58:12] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=9, apellido=de Prueba, nombre=Usuario, dni=12595356, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@6238b10a)
+[2022-07-27 10:58:12] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=16, nombre=Prestador, apellido=de Prueba, matricula=7682)
+[2022-07-27 10:58:12] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@3d5b2c1e
+[2022-07-27 10:58:12] [INFO] [TurnoService:90] Se registró el siguiente turno: ar.com.sistema.dto.TurnoDTO@3d5b2c1e
+[2022-07-27 10:58:12] [INFO] [TurnoService:121] Se listaron todos los turnos.
+[2022-07-27 10:58:13] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=10, apellido=de Prueba, nombre=Usuario, dni=7318854, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@20425fab)
+[2022-07-27 10:58:13] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=17, nombre=Prestador, apellido=de Prueba, matricula=5205)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=10, apellido=de Prueba, nombre=Usuario, dni=7318854, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@19412eef)
+[2022-07-27 10:58:13] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=17, nombre=Prestador, apellido=de Prueba, matricula=5205)
+[2022-07-27 10:58:13] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@578483bd
+[2022-07-27 10:58:13] [INFO] [TurnoService:90] Se registró el siguiente turno: ar.com.sistema.dto.TurnoDTO@578483bd
+[2022-07-27 10:58:13] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@41ad6c00
+[2022-07-27 10:58:13] [INFO] [TurnoService:139] Se  eliminó el turno: ar.com.sistema.dto.TurnoDTO@696d28ee
+[2022-07-27 10:58:13] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=11, apellido=de Prueba, nombre=Usuario, dni=23066031, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@5e08ed28)
+[2022-07-27 10:58:13] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=18, nombre=Prestador, apellido=de Prueba, matricula=7346)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=11, apellido=de Prueba, nombre=Usuario, dni=23066031, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@2e41e0c)
+[2022-07-27 10:58:13] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=18, nombre=Prestador, apellido=de Prueba, matricula=7346)
+[2022-07-27 10:58:13] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@1cbb394b
+[2022-07-27 10:58:13] [INFO] [TurnoService:90] Se registró el siguiente turno: ar.com.sistema.dto.TurnoDTO@1cbb394b
+[2022-07-27 10:58:13] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@215efb16
+[2022-07-27 10:58:13] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=12, apellido=de Prueba, nombre=Usuario, dni=10448526, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@281a54b)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=13, apellido=de Prueba, nombre=Usuario, dni=8560026, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@7f588bc6)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=14, apellido=de Prueba, nombre=Usuario, dni=9384828, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@5e2525fe)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:98] Se listaron todos los usuarios.
+[2022-07-27 10:58:13] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=15, apellido=de Prueba, nombre=Usuario, dni=11809763, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@5e2ab1c)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=15, apellido=de Prueba, nombre=Usuario, dni=11809763, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@5276330a)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=16, apellido=de Prueba, nombre=Usuario, dni=24686360, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@5e7fc012)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=16, apellido=de Prueba, nombre=Usuario, dni=24686360, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@4c663fda)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:116] Se eliminó el usuario: UsuarioDTO(id=16, apellido=de Prueba, nombre=Usuario, dni=24686360, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@39ff4421)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=17, apellido=de Prueba, nombre=Usuario, dni=15972178, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@65374526)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=17, apellido=de Prueba, nombre=Usuario, dni=15972178, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@6138ee0e)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:51] Se guardó el usuario: UsuarioDTO(id=18, apellido=de Prueba, nombre=Usuario, dni=2765880, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@661d49d1)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:141] Se actualizará un usuario. Datos originales: UsuarioDTO(id=18, apellido=de Prueba, nombre=Usuario, dni=2765880, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@e5bce8e)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:149] Datos actuales: UsuarioDTO(id=18, apellido=McFly, nombre=Marty, dni=2765880, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@3c8c5513)
+[2022-07-27 10:58:13] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=18, apellido=McFly, nombre=Marty, dni=2765880, fechaIngreso=2002-05-05, domicilio=ar.com.sistema.entity.Domicilio@125df632)
+[2022-07-27 12:04:32] [ERROR] [DataLoader:74] could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_MA71X4N4TYDIBSD9QT0M71LE7_INDEX_2 ON PUBLIC.USUARIO(DNI NULLS FIRST) VALUES ( /* 1 */ `20555444` )"; SQL statement:
+insert into usuario (apellido, dni, domicilio_id, fecha_ingreso, nombre, id) values (?, ?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-07-27 12:06:14] [INFO] [PrestadorService:93] Se listaron todos los prestadors.
+[2022-07-27 12:07:19] [INFO] [TurnoService:121] Se listaron todos los turnos.
+[2022-07-27 12:18:03] [INFO] [PrestadorService:93] Se listaron todos los prestadors.
+[2022-07-27 12:18:24] [INFO] [UsuarioService:98] Se listaron todos los usuarios.
+[2022-07-27 12:18:42] [INFO] [TurnoService:121] Se listaron todos los turnos.
+[2022-07-27 12:18:49] [INFO] [PrestadorService:93] Se listaron todos los prestadors.
+[2022-07-27 12:23:41] [ERROR] [DataLoader:74] could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_MA71X4N4TYDIBSD9QT0M71LE7_INDEX_2 ON PUBLIC.USUARIO(DNI NULLS FIRST) VALUES ( /* 1 */ `20555444` )"; SQL statement:
+insert into usuario (apellido, dni, domicilio_id, fecha_ingreso, nombre, id) values (?, ?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-07-27 12:27:43] [ERROR] [DataLoader:74] could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_MA71X4N4TYDIBSD9QT0M71LE7_INDEX_2 ON PUBLIC.USUARIO(DNI NULLS FIRST) VALUES ( /* 1 */ `20555444` )"; SQL statement:
+insert into usuario (apellido, dni, domicilio_id, fecha_ingreso, nombre, id) values (?, ?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-07-27 12:28:16] [INFO] [PrestadorService:93] Se listaron todos los prestadors.
+[2022-07-27 12:28:37] [INFO] [TurnoService:121] Se listaron todos los turnos.
+[2022-07-27 12:28:56] [INFO] [PrestadorService:93] Se listaron todos los prestadors.
+[2022-07-27 12:29:03] [INFO] [UsuarioService:98] Se listaron todos los usuarios.
+[2022-07-27 12:29:08] [INFO] [TurnoService:121] Se listaron todos los turnos.
+[2022-07-27 12:35:51] [INFO] [TurnoService:121] Se listaron todos los turnos.
+[2022-07-27 12:44:40] [ERROR] [DataLoader:74] could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_MA71X4N4TYDIBSD9QT0M71LE7_INDEX_2 ON PUBLIC.USUARIO(DNI NULLS FIRST) VALUES ( /* 1 */ `20555444` )"; SQL statement:
+insert into usuario (apellido, dni, domicilio_id, fecha_ingreso, nombre, id) values (?, ?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-07-27 12:46:35] [INFO] [PrestadorService:93] Se listaron todos los prestadors.
+[2022-07-27 12:46:40] [INFO] [UsuarioService:98] Se listaron todos los usuarios.
+[2022-07-27 12:48:41] [ERROR] [DataLoader:74] could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_MA71X4N4TYDIBSD9QT0M71LE7_INDEX_2 ON PUBLIC.USUARIO(DNI NULLS FIRST) VALUES ( /* 1 */ `20555444` )"; SQL statement:
+insert into usuario (apellido, dni, domicilio_id, fecha_ingreso, nombre, id) values (?, ?, ?, ?, ?, ?) [23505-214]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-07-27 12:50:01] [INFO] [PrestadorService:45] Se guardó el prestador: PrestadorDTO(id=19, nombre=agus, apellido=marquez, matricula=5555555)
+[2022-07-27 12:50:09] [INFO] [PrestadorService:93] Se listaron todos los prestadors.
+[2022-07-27 12:50:23] [INFO] [UsuarioService:98] Se listaron todos los usuarios.
+[2022-07-27 12:50:54] [ERROR] [GlobalExceptionHandler:40] La fecha del turno no puede ser anterior a este momento.
+[2022-07-27 12:51:12] [INFO] [UsuarioService:67] Se buscó por Id el usuario: UsuarioDTO(id=1, apellido=Scott, nombre=Michael, dni=20555444, fechaIngreso=2022-07-26, domicilio=ar.com.sistema.entity.Domicilio@1e9c41d)
+[2022-07-27 12:51:12] [INFO] [PrestadorService:61] Se buscó por Id el prestador: PrestadorDTO(id=1, nombre=Dwight, apellido=Schrute, matricula=444666)
+[2022-07-27 12:51:12] [INFO] [TurnoService:106] Se buscó por Id el turno: ar.com.sistema.dto.TurnoDTO@3d6e43ea
+[2022-07-27 12:51:12] [INFO] [TurnoService:90] Se registró el siguiente turno: ar.com.sistema.dto.TurnoDTO@3d6e43ea
+[2022-07-27 12:52:54] [INFO] [PrestadorService:93] Se listaron todos los prestadors.
+[2022-07-27 12:53:57] [INFO] [PrestadorService:111] Se eliminó el prestador: PrestadorDTO(id=1, nombre=Dwight, apellido=Schrute, matricula=444666)

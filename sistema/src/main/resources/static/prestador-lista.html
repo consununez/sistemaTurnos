@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Prestadores</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.20/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <script type="text/javascript" src="/js/data.js"></script>
+    <script type="text/javascript" src="/js/prestador/get_prestador.js"></script>
+    <script type="text/javascript" src="/js/prestador/update_prestador.js"></script>
+    <script type="text/javascript" src="/js/prestador/delete_prestador.js"></script>
+</head>
+<body>
+<div class="container">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="/"><i class="fa-solid fa-house"></i> Volver al inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/prestador-alta.html"><i class="fa-solid fa-user-plus"></i> Alta de nuevo prestador</a>
+        </li>
+    </ul>
+
+    <div id="div_prestador_table">
+        <h1 style="padding:1em"><i class="fa-solid fa-hamsa"></i> Prestadores</h1>
+        <div class="row col-md-12 table-responsive">
+            <table id="prestadorTable" class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Matrícula</th>
+                    <th>Eliminar</th>
+                </tr>
+                </thead>
+                <tbody id="prestadorTableBody">
+                </tbody>
+            </table>
+            <div id="loading">
+                <img id="loading-image" style = "max-width: 100%" src="img/loading.gif" alt="Loading..."/>
+            </div>  
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6" style="display: none;
+											background-color:#e6fffa; padding:10px; border-radius:3px"
+             id="div_prestador_updating">
+            <form id="update_prestador_form">
+                <div class="form-group">
+                    <label >Id:</label>
+                    <input type="text" class="form-control" id="prestador_id" readonly>
+                </div>
+                <div class="form-group">
+                    <label >Nombre:</label>
+                    <input type="text" class="form-control" placeholder="nombre" id="nombre">
+                </div>
+                <div class="form-group">
+                    <label >Apellido:</label>
+                    <input type="text" class="form-control" placeholder="apellido" id="apellido">
+                </div>
+                <div class="form-group">
+                    <label >Matricula:</label>
+                    <input type="text" class="form-control" placeholder="matricula" id="matricula">
+                </div>
+
+
+                <button type="submit" class="btn btn-primary">Modificar</button>
+            </form>
+
+            
+        </div>
+    </div>
+    <hr>
+</div>
+</body>
+</html>
