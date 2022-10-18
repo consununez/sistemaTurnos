@@ -1,11 +1,11 @@
 # La app
 
 La aplicación se trata de un sistema de turnos.
+
 - Permite administrar los datos de prestadores y de usuarios.
 - Permite asignar a un usuario un turno con un prestador a una determinada fecha y hora.
 
 El proyecto fue realizado con Java.
-
 
 ### Objetivo
 
@@ -17,7 +17,6 @@ Desarrollar la aplicación en capas:
 - Capa de negocio: son las clases service que se encargan de desacoplar el acceso a datos de la vista.
 - Capa de presentación: son las pantallas web que tendremos que desarrollar utilizando el framework de Spring Boot MVC con los controladores y HTML+JavaScript para la vista.
 - Excepciones y tests.
-
 
 ### Tecnologías utilizadas
 
