@@ -6,6 +6,7 @@ La aplicación se trata de un sistema de turnos.
 
 El proyecto fue realizado con Java.
 
+
 ### Objetivo
 
 Desarrollar la aplicación en capas:
@@ -16,6 +17,7 @@ Desarrollar la aplicación en capas:
 - Capa de negocio: son las clases service que se encargan de desacoplar el acceso a datos de la vista.
 - Capa de presentación: son las pantallas web que tendremos que desarrollar utilizando el framework de Spring Boot MVC con los controladores y HTML+JavaScript para la vista.
 - Excepciones y tests.
+
 
 ### Tecnologías utilizadas
 
