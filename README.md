@@ -3,6 +3,7 @@
 La aplicación se trata de un sistema de turnos.
 - Permite administrar los datos de prestadores y de usuarios.
 - Permite asignar a un usuario un turno con un prestador a una determinada fecha y hora.
+
 El proyecto fue realizado con Java.
 
 ### Objetivo
